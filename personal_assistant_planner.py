@@ -71,6 +71,7 @@ def login_page():
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
 
+
     correct_username = st.secrets["general"]["username"]
     correct_password = st.secrets["general"]["password"]
 
